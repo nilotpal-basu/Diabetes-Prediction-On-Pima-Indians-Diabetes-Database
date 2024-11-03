@@ -8,4 +8,5 @@
 - K-Nearest Neighbor algorithm is used.
 - Dataset split into training and testing sets (80% training, 20% testing).
 - Model trained on both normalized and unnormalized feature values.
+- Data leakage is prevented by fitting the Standard Scaler only on the training set and applying it to both training and testing sets.
 - Checked performance with different n_neighbors values, selecting the best one based on testing accuracy.
